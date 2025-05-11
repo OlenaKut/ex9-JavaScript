@@ -3,3 +3,19 @@ body {
   margin: 20px auto;
   max-width: 800px;
 }
+
+#shoppingList li {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#shoppingList li.purchased {
+  text-decoration: line-through;
+  background-color:rgb(36, 202, 208);
+}
+
+.delete-btn {
+  float: right;
+  color:rgb(245, 7, 31);
+  cursor: pointer;
+}
